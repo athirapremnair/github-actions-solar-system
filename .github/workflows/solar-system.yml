@@ -69,6 +69,8 @@ jobs:
             path: coverage
             retention-days: 5 
     docker:
+        permissions: 
+          packages: write
         needs: [code-coverage,unit-testing]
         name: Unit Testing
         runs-on: ubuntu-latest
