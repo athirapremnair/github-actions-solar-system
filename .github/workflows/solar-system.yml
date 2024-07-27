@@ -24,7 +24,7 @@ jobs:
           with:
             node-version: 20
         
-        - name: Cache NPM Dependencies
+        - name: Cache NPM Dependencies test
           uses: actions/cache@v3
           with: 
             path: ~/.npm
