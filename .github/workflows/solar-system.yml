@@ -122,4 +122,3 @@ jobs:
            run: |
               kubectl version --short -o yaml
               echo ---------------------------------
-              kubectl get nodes
